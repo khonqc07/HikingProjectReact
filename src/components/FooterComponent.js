@@ -6,7 +6,7 @@ function handleSubmit(event) {
     event.preventDefault();
 }
 
-function Footer(props){
+function Footer(){
     
     return(
         <footer className="site-footer">

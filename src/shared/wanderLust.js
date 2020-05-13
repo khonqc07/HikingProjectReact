@@ -20,9 +20,9 @@ const items = [
 ];
 
 const WanderLust = () => (
-    <div>
-        <UncontrolledCarousel items={items} />;
-    </div>
+  <div>
+    <UncontrolledCarousel items={items} />
+  </div>
 );
 
 export default WanderLust;

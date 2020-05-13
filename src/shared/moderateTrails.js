@@ -21,7 +21,7 @@ export const MODERATE = [
         image: "/assets/images/trails/summer-moderate-tolmie-peak.png",
         photographer:"Kaitlin Schoewe",
         Source: "AllTrails",
-        featured: true
+        featured: false
     },
     {
         id: 2,
@@ -45,6 +45,6 @@ export const MODERATE = [
         image: "/assets/images/trails/winter-moderate-wallace-falls-trail.jpg",
         photographer:"David Van Hove",
         Source: "AllTrails",
-        featured: false
+        featured: true
     },    
 ];

@@ -69,9 +69,9 @@ class Header extends Component {
                                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggleDropdown}>
                                     <DropdownToggle caret>Trails</DropdownToggle>
                                     <DropdownMenu className="bg-dark">
-                                        <DropdownItem className="nav-link bg-dark" to="/"> Easy Trails</DropdownItem>
-                                        <DropdownItem className="nav-link bg-dark" to="/"> Intermediate Trails</DropdownItem>
-                                        <DropdownItem className="nav-link bg-dark" to="/"> Difficult Trails</DropdownItem>
+                                        <DropdownItem className="nav-link bg-dark"><NavLink to="/easyTrails">Easy Trails</NavLink></DropdownItem>
+                                        <DropdownItem className="nav-link bg-dark"><NavLink to="moderateTrails">Moderate Trails</NavLink></DropdownItem>
+                                        <DropdownItem className="nav-link bg-dark"><NavLink to="hardTrails">Hard Trails</NavLink></DropdownItem>
                                     </DropdownMenu>
                                 </Dropdown>
                                 <NavItem>

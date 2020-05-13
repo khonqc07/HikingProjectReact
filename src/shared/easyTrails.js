@@ -9,7 +9,7 @@ export const EASY = [
         image:"/assets/images/trails/spring-easy-sol-duc-trail.png",
         photographer:"Paul Nguyen",
         Source: "AllTrails",
-        featured: true  
+        featured: false  
     },
     {
         id: 1,
