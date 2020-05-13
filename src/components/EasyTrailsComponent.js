@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function RenderEasyTrails({easy}) {
     return (
         <div className = "row">
-            <Card className = "col col-md-6 m-1">                 
+            <Card className = "col col-md-6 m-1 p-1">                 
                 <CardImg className="trail-photo" src = {easy.image} alt = {easy.name} />
                 <CardImgOverlay>
                     <CardTitle> Photo by {easy.photographer} </CardTitle>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function RenderHardTrails({hard}) {
     return (
         <div className = "row">
-            <Card className = "col col-md-6 m-1">                
+            <Card className = "col col-md-6 m-1 p-1">                
                 <CardImg className="trail-photo mt-2" src = {hard.image} alt = {hard.name} />
                 <CardImgOverlay>
                     <CardTitle> Photo by {hard.photographer} </CardTitle>

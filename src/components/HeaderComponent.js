@@ -75,10 +75,10 @@ class Header extends Component {
                                     </DropdownMenu>
                                 </Dropdown>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/">About Us</NavLink>
+                                    <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/">Contact Us</NavLink>
+                                    <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
                                 </NavItem>
                             </Nav>
                             <span className="navbar-text ml-auto">

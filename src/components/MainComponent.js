@@ -42,6 +42,8 @@ class Main extends Component {
                     <Route exact path='/easyTrails' render={() => <EasyTrails easy={this.state.easy} />} />
                     <Route exact path='/moderateTrails' render={() => <ModerateTrails moderate={this.state.moderate} />} />
                     <Route exact path='/hardTrails' render={() => <HardTrails hard={this.state.hard} />} />
+                    <Route path='/aboutus' component={About} />
+                    <Route path='/contactus' component={Contact} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
