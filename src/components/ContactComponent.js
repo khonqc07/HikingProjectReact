@@ -159,6 +159,7 @@ class Contact extends Component {
                                 <Label htmlFor="feedback" md={2}>Your Feedback</Label>
                                 <Col md={10}>
                                     <Input type="textarea" id="feedback" name="feedback"
+                                        placeholder="Tell us about your experience"
                                         rows="12"
                                         value={this.state.feedback}
                                         onChange={this.handleInputChange}></Input>

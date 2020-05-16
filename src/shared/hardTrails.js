@@ -2,7 +2,7 @@ export const HARD = [
     {
         id: 0,
         name: "Mount Si Trail",
-        season: "Sring",
+        season: "Spring",
         level: "Hard",
         distance: "7.9 miles",
         elevation: "3,199 feet",         

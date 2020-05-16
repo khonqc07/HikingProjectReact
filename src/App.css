@@ -72,6 +72,10 @@ color: white;
   height: auto;
 }
 
+.slide-container{
+  width: 65%;
+}
+
 .site-footer{
   background-color: #003029;
   color: whitesmoke;
